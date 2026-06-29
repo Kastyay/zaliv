@@ -1,0 +1,14 @@
+{
+  "name": "google-drive-uploader",
+  "version": "1.0.0",
+  "description": "Бэкенд для загрузки файлов на Google Диск через сервисный аккаунт",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "googleapis": "^118.0.0"
+  }
+}
